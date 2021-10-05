@@ -1,0 +1,65 @@
+{
+    "Pickup": {
+        "checkpoints": [
+            {
+                "steps": 499949,
+                "file_path": "results\\36_19\\Pickup\\Pickup-499949.onnx",
+                "reward": 1.0,
+                "creation_time": 1633393789.160097,
+                "auxillary_file_paths": [
+                    "results\\36_19\\Pickup\\Pickup-499949.pt"
+                ]
+            },
+            {
+                "steps": 999985,
+                "file_path": "results\\36_19\\Pickup\\Pickup-999985.onnx",
+                "reward": 0.8095238095238095,
+                "creation_time": 1633394122.572174,
+                "auxillary_file_paths": [
+                    "results\\36_19\\Pickup\\Pickup-999985.pt"
+                ]
+            },
+            {
+                "steps": 1499993,
+                "file_path": "results\\36_19\\Pickup\\Pickup-1499993.onnx",
+                "reward": 1.0,
+                "creation_time": 1633394494.54203,
+                "auxillary_file_paths": [
+                    "results\\36_19\\Pickup\\Pickup-1499993.pt"
+                ]
+            },
+            {
+                "steps": 1999999,
+                "file_path": "results\\36_19\\Pickup\\Pickup-1999999.onnx",
+                "reward": 0.9047619047619048,
+                "creation_time": 1633394901.0438588,
+                "auxillary_file_paths": [
+                    "results\\36_19\\Pickup\\Pickup-1999999.pt"
+                ]
+            },
+            {
+                "steps": 2000005,
+                "file_path": "results\\36_19\\Pickup\\Pickup-2000005.onnx",
+                "reward": 0.9053254437869822,
+                "creation_time": 1633394901.0787222,
+                "auxillary_file_paths": [
+                    "results\\36_19\\Pickup\\Pickup-2000005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000005,
+            "file_path": "results\\36_19\\Pickup.onnx",
+            "reward": 0.9053254437869822,
+            "creation_time": 1633394901.0787222,
+            "auxillary_file_paths": [
+                "results\\36_19\\Pickup\\Pickup-2000005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

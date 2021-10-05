@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1633212063",
+        "python_version": "3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jaluh\\Documents\\Projects\\Unity Projects\\ml-agents\\trainingEnv\\Scripts\\mlagents-learn FoodCollector.yaml --run-id=firstTest",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1633212124"
+    },
+    "total": 60.785169700000004,
+    "count": 1,
+    "self": 0.003558200000000511,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08513090000000001,
+            "count": 1,
+            "self": 0.08513090000000001
+        },
+        "TrainerController.start_learning": {
+            "total": 60.6964806,
+            "count": 1,
+            "self": 0.00011950000000382488,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.6963481,
+                    "count": 1,
+                    "self": 60.6963481
+                },
+                "TrainerController._save_models": {
+                    "total": 1.2999999995599865e-05,
+                    "count": 1,
+                    "self": 1.2999999995599865e-05
+                }
+            }
+        }
+    }
+}

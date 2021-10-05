@@ -1,0 +1,29 @@
+{
+    "Pickup": {
+        "checkpoints": [
+            {
+                "steps": 1918,
+                "file_path": "results\\36_6\\Pickup\\Pickup-1918.onnx",
+                "reward": -1.0,
+                "creation_time": 1633390730.3792264,
+                "auxillary_file_paths": [
+                    "results\\36_6\\Pickup\\Pickup-1918.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1918,
+            "file_path": "results\\36_6\\Pickup.onnx",
+            "reward": -1.0,
+            "creation_time": 1633390730.3792264,
+            "auxillary_file_paths": [
+                "results\\36_6\\Pickup\\Pickup-1918.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

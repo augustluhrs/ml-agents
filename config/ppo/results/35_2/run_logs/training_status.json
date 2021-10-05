@@ -1,0 +1,51 @@
+{
+    "PredatorHunt": {
+        "checkpoints": [
+            {
+                "steps": 21600,
+                "file_path": "results\\35_2\\PredatorHunt\\PredatorHunt-21600.onnx",
+                "reward": null,
+                "creation_time": 1633307409.318827,
+                "auxillary_file_paths": [
+                    "results\\35_2\\PredatorHunt\\PredatorHunt-21600.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 21600,
+            "file_path": "results\\35_2\\PredatorHunt.onnx",
+            "reward": null,
+            "creation_time": 1633307409.318827,
+            "auxillary_file_paths": [
+                "results\\35_2\\PredatorHunt\\PredatorHunt-21600.pt"
+            ]
+        }
+    },
+    "PreyForage": {
+        "checkpoints": [
+            {
+                "steps": 86400,
+                "file_path": "results\\35_2\\PreyForage\\PreyForage-86400.onnx",
+                "reward": null,
+                "creation_time": 1633307409.3932538,
+                "auxillary_file_paths": [
+                    "results\\35_2\\PreyForage\\PreyForage-86400.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 86400,
+            "file_path": "results\\35_2\\PreyForage.onnx",
+            "reward": null,
+            "creation_time": 1633307409.3932538,
+            "auxillary_file_paths": [
+                "results\\35_2\\PreyForage\\PreyForage-86400.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

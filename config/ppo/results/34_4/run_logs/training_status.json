@@ -1,0 +1,56 @@
+{
+    "VisualFoodCollector": {
+        "checkpoints": [
+            {
+                "steps": 499900,
+                "file_path": "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-499900.onnx",
+                "reward": 12.125,
+                "creation_time": 1633218530.4618683,
+                "auxillary_file_paths": [
+                    "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-499900.pt"
+                ]
+            },
+            {
+                "steps": 999900,
+                "file_path": "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-999900.onnx",
+                "reward": null,
+                "creation_time": 1633219487.300104,
+                "auxillary_file_paths": [
+                    "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-999900.pt"
+                ]
+            },
+            {
+                "steps": 1499900,
+                "file_path": "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-1499900.onnx",
+                "reward": null,
+                "creation_time": 1633220427.9540238,
+                "auxillary_file_paths": [
+                    "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-1499900.pt"
+                ]
+            },
+            {
+                "steps": 1999900,
+                "file_path": "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-1999900.onnx",
+                "reward": 0.0,
+                "creation_time": 1633221373.505203,
+                "auxillary_file_paths": [
+                    "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-1999900.pt"
+                ]
+            },
+            {
+                "steps": 2499900,
+                "file_path": "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-2499900.onnx",
+                "reward": null,
+                "creation_time": 1633222291.6559792,
+                "auxillary_file_paths": [
+                    "results\\34_4\\VisualFoodCollector\\VisualFoodCollector-2499900.pt"
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

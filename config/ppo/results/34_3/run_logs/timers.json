@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1633217481",
+        "python_version": "3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jaluh\\Documents\\Projects\\Unity Projects\\ml-agents\\trainingEnv\\Scripts\\mlagents-learn EaterTraining.yaml --run-id=34_3",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1633217493"
+    },
+    "total": 12.340513,
+    "count": 1,
+    "self": 0.004061899999998175,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08822440000000054,
+            "count": 1,
+            "self": 0.08822440000000054
+        },
+        "TrainerController.start_learning": {
+            "total": 12.2482267,
+            "count": 1,
+            "self": 0.00019709999999939498,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.248021499999998,
+                    "count": 1,
+                    "self": 12.248021499999998
+                },
+                "trainer_threads": {
+                    "total": 8.000000022434506e-07,
+                    "count": 1,
+                    "self": 8.000000022434506e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 7.300000000043383e-06,
+                    "count": 1,
+                    "self": 7.300000000043383e-06
+                }
+            }
+        }
+    }
+}

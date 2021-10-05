@@ -1,0 +1,29 @@
+{
+    "VisualFoodCollector": {
+        "checkpoints": [
+            {
+                "steps": 56000,
+                "file_path": "results\\fourthTest\\VisualFoodCollector\\VisualFoodCollector-56000.onnx",
+                "reward": null,
+                "creation_time": 1633212918.0642302,
+                "auxillary_file_paths": [
+                    "results\\fourthTest\\VisualFoodCollector\\VisualFoodCollector-56000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 56000,
+            "file_path": "results\\fourthTest\\VisualFoodCollector.onnx",
+            "reward": null,
+            "creation_time": 1633212918.0642302,
+            "auxillary_file_paths": [
+                "results\\fourthTest\\VisualFoodCollector\\VisualFoodCollector-56000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
